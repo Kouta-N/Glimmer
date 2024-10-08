@@ -3,7 +3,7 @@
 CREATE TABLE `user` (
     `id` bigint NOT NULL AUTO_INCREMENT,
     `email` varchar(255) COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT 'ユーザーのメールアドレス',
-    `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT 'ユーザーのパスワード',
+    `password_hash` varchar(255) COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT 'ユーザーのパスワード',
     `name` varchar(255) COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT 'ユーザーの名前',
     `profile_image` varchar(255) COLLATE utf8mb4_general_ci DEFAULT '' COMMENT 'ユーザーのプロフィール画像',
     `email_verified` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'メール認証が済んでいるかどうか',
