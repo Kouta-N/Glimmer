@@ -1,0 +1,38 @@
+gin-bin
+node_modules
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# graphql auto-generate
+graph/generated/*
+v2/generated/*
+*_gen.go
+
+vendor/
+.vscode/*
+
+cover.html
+cover.out*
+
+.env
+
+database/config.test.yml
+database/config.dev.yml
+database/config.stg.yml
+database/config.pro.yml
+
+# Binary file automatically generated when realize start under tmhub/admin
+admin
+!admin/
+
+# Go Binary file
+bin/*
+scripts/**/got
+
+# vscode golang debug
+__debug_bin
+
+.DS_Store
