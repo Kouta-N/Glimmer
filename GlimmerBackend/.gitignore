@@ -36,3 +36,5 @@ scripts/**/got
 __debug_bin
 
 .DS_Store
+.env
+.env.sample
