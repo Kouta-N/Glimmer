@@ -1,4 +1,4 @@
-# Obsess
+# Glimmer
 
 ## This is a site primarily for posting and rating dark-themed novels.
 
