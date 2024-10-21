@@ -24,7 +24,6 @@ database/config.dev.yml
 database/config.stg.yml
 database/config.pro.yml
 
-# Binary file automatically generated when realize start under tmhub/admin
 admin
 !admin/
 
